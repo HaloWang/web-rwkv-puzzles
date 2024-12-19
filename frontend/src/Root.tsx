@@ -64,6 +64,7 @@ const Root: React.FC = () => {
         <Content style={{ margin: '0 16px', display: 'flex', flex: 1 }}>
           <Routes>
             <Route path='/chat' element={<Chat />} />
+            <Route path='/' element={<Chat />} />
             <Route path='/15puzzle' element={<Puzzle />} />
           </Routes>
         </Content>

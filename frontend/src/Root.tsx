@@ -10,6 +10,7 @@ import Puzzle from './pages/15puzzle/page'
 import Chat from './pages/Chat'
 import Music from './pages/Music'
 import Replay from './pages/Replay'
+import Othello from './pages/othello/page'
 const Root: React.FC = () => {
   return (
     <SidebarProvider>
@@ -27,6 +28,7 @@ const Root: React.FC = () => {
                 <Route path='/15puzzle' element={<Puzzle />} />
                 <Route path='/music' element={<Music />} />
                 <Route path='/replay' element={<Replay />} />
+                <Route path='/othello' element={<Othello />} />
               </Routes>
             </HashRouter>
           </div>

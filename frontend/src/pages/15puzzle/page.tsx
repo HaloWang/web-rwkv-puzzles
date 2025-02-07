@@ -1,9 +1,9 @@
 import { useEffect, useRef } from 'react'
 import { useRecoilState, useRecoilValue } from 'recoil'
 import { Button } from 'antd'
-import { P } from './state_puzzle'
-import { loadData } from '../func/load'
-import { setupWorker } from '../setup_worker'
+import { P } from './state'
+import { loadData } from '../../func/load'
+import { setupWorker } from '../../setup_worker'
 // import './Puzzle.css'
 
 // const width = 750

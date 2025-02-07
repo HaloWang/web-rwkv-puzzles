@@ -6,7 +6,7 @@ import {
 } from './components/ui/SidebarProvider'
 import { Routes, Navigate, HashRouter } from 'react-router-dom'
 import { Route } from 'react-router-dom'
-import Puzzle from './pages/Puzzle'
+import Puzzle from './pages/15puzzle/page'
 import Chat from './pages/Chat'
 import Music from './pages/Music'
 import Replay from './pages/Replay'
